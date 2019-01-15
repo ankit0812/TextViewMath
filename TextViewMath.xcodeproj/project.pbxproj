@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378D2926EB2BEE03E49689B6 /* Pods_TextViewMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECD5D96D7CA7D1976E5F21F /* Pods_TextViewMath.framework */; };
 		9F73302921D0D0C2009EFFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73302821D0D0C2009EFFF4 /* AppDelegate.swift */; };
 		9F73302B21D0D0C2009EFFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73302A21D0D0C2009EFFF4 /* ViewController.swift */; };
 		9F73302E21D0D0C2009EFFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73302C21D0D0C2009EFFF4 /* Main.storyboard */; };
 		9F73303021D0D0C5009EFFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F73302F21D0D0C5009EFFF4 /* Assets.xcassets */; };
 		9F73303321D0D0C5009EFFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73303121D0D0C5009EFFF4 /* LaunchScreen.storyboard */; };
+		9F73303B21D0D8E8009EFFF4 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F73303A21D0D8E8009EFFF4 /* TextViewTableViewCell.swift */; };
+		9FDE450F21D121470094041A /* MathJax-2.7.5 in Resources */ = {isa = PBXBuildFile; fileRef = 9FDE450E21D121470094041A /* MathJax-2.7.5 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ECD5D96D7CA7D1976E5F21F /* Pods_TextViewMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextViewMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2063B04C26512AE8679A42BC /* Pods-TextViewMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextViewMath.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextViewMath/Pods-TextViewMath.release.xcconfig"; sourceTree = "<group>"; };
+		8A6F96A785A04F3656D0F013 /* Pods-TextViewMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextViewMath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextViewMath/Pods-TextViewMath.debug.xcconfig"; sourceTree = "<group>"; };
 		9F73302521D0D0C2009EFFF4 /* TextViewMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F73302821D0D0C2009EFFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F73302A21D0D0C2009EFFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		9F73302F21D0D0C5009EFFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F73303221D0D0C5009EFFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F73303421D0D0C5009EFFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F73303A21D0D8E8009EFFF4 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		9FDE450E21D121470094041A /* MathJax-2.7.5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "MathJax-2.7.5"; path = "Vendor/MathJax-2.7.5"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378D2926EB2BEE03E49689B6 /* Pods_TextViewMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,9 @@
 			children = (
 				9F73302721D0D0C2009EFFF4 /* TextViewMath */,
 				9F73302621D0D0C2009EFFF4 /* Products */,
+				9FDE450E21D121470094041A /* MathJax-2.7.5 */,
+				F67976798220CC74789B9D1E /* Pods */,
+				E31854FD84ADB6CD285E9844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +68,30 @@
 			children = (
 				9F73302821D0D0C2009EFFF4 /* AppDelegate.swift */,
 				9F73302A21D0D0C2009EFFF4 /* ViewController.swift */,
+				9F73303A21D0D8E8009EFFF4 /* TextViewTableViewCell.swift */,
 				9F73302C21D0D0C2009EFFF4 /* Main.storyboard */,
 				9F73302F21D0D0C5009EFFF4 /* Assets.xcassets */,
 				9F73303121D0D0C5009EFFF4 /* LaunchScreen.storyboard */,
 				9F73303421D0D0C5009EFFF4 /* Info.plist */,
 			);
 			path = TextViewMath;
+			sourceTree = "<group>";
+		};
+		E31854FD84ADB6CD285E9844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECD5D96D7CA7D1976E5F21F /* Pods_TextViewMath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67976798220CC74789B9D1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6F96A785A04F3656D0F013 /* Pods-TextViewMath.debug.xcconfig */,
+				2063B04C26512AE8679A42BC /* Pods-TextViewMath.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F73303721D0D0C5009EFFF4 /* Build configuration list for PBXNativeTarget "TextViewMath" */;
 			buildPhases = (
+				8396F95508A287DC94DC6408 /* [CP] Check Pods Manifest.lock */,
 				9F73302121D0D0C1009EFFF4 /* Sources */,
 				9F73302221D0D0C1009EFFF4 /* Frameworks */,
 				9F73302321D0D0C1009EFFF4 /* Resources */,
+				16631FB85879717A5F349A4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					9F73302421D0D0C1009EFFF4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,12 +156,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F73303321D0D0C5009EFFF4 /* LaunchScreen.storyboard in Resources */,
+				9FDE450F21D121470094041A /* MathJax-2.7.5 in Resources */,
 				9F73303021D0D0C5009EFFF4 /* Assets.xcassets in Resources */,
 				9F73302E21D0D0C2009EFFF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16631FB85879717A5F349A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextViewMath/Pods-TextViewMath-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DTCoreText/DTCoreText.framework",
+				"${BUILT_PRODUCTS_DIR}/DTFoundation/DTFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTCoreText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextViewMath/Pods-TextViewMath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8396F95508A287DC94DC6408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextViewMath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F73302121D0D0C1009EFFF4 /* Sources */ = {
@@ -137,6 +220,7 @@
 			files = (
 				9F73302B21D0D0C2009EFFF4 /* ViewController.swift in Sources */,
 				9F73302921D0D0C2009EFFF4 /* AppDelegate.swift in Sources */,
+				9F73303B21D0D8E8009EFFF4 /* TextViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,17 +364,22 @@
 		};
 		9F73303821D0D0C5009EFFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6F96A785A04F3656D0F013 /* Pods-TextViewMath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVQH5256R5;
 				INFOPLIST_FILE = TextViewMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.TextViewMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +387,21 @@
 		};
 		9F73303921D0D0C5009EFFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2063B04C26512AE8679A42BC /* Pods-TextViewMath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVQH5256R5;
 				INFOPLIST_FILE = TextViewMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.TextViewMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

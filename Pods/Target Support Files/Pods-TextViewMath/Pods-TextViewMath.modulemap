@@ -1,0 +1,6 @@
+framework module Pods_TextViewMath {
+  umbrella header "Pods-TextViewMath-umbrella.h"
+
+  export *
+  module * { export * }
+}
